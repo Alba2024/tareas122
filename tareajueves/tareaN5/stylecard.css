@@ -1,0 +1,15 @@
+body{
+    background-color: aqua;
+}
+.contenedordos{
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "div div2";    
+}
+.contenedordos .div{
+    grid-area: div;
+}
+.contenedordos .div2{
+    grid-area: div2;
+}

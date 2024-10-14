@@ -1,0 +1,24 @@
+.body{
+  
+    background-color: aqua;
+}
+.card-img{
+    align-items: center;
+    text-align: center;
+}
+img{
+    width: 150px;
+    height: 300px;
+}
+.contenedordos{
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "div div2";    
+}
+.contenedordos .div{
+    grid-area: div;
+}
+.contenedordos .div2{
+    grid-area: div2;
+}
