@@ -1,7 +1,10 @@
+import Acordeon from "../components/Acordeon.jsx"
+import'../style/Home.css'
 function Home(){
     return(
         <div>
-            <h1>hola mundo</h1>
+            <h1>iniciativa</h1>
+            <Acordeon></Acordeon>
         </div>
     )
 }

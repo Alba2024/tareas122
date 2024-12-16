@@ -4,9 +4,9 @@ import { Button } from 'reactstrap'
 function Card(props){
     return(
         <div className="blocks">
-            <h1>{props.name}</h1>
+            
             <a href="http://"><img className ="imagen"src={props.img} alt="img" /></a>
-            <p >{props.datos}</p>
+            <h1>{props.name}</h1>
             <Button
                color="info"
                outline
