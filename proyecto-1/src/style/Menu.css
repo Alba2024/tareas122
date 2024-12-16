@@ -1,0 +1,31 @@
+.navegador{
+    display: grid;
+    align-items: center;
+    grid-gap: 4px;
+    padding:4px;
+    margin: 0 auto;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "titulo  buscador  item";
+    
+}
+
+.encabesado .navegador .titulo{
+    color:rgb(26, 156, 52);
+    font-size: 3xl;
+    text-align: left;
+    grid-area: titulo;
+}
+.encabesado .navegador .titulo .titulo2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.encabesado .item{
+    grid-area: item;
+    color: rgb(232, 240, 247);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items:normal;
+    justify-items: center;
+    gap: 10px;
+    
+}

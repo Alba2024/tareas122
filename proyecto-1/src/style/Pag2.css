@@ -1,0 +1,14 @@
+.home{
+    background-color: rgb(187, 76, 76);
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    display: grid;
+    grid-column: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 42px;
+}
+img{
+    height: 400px;
+    width: 400px;
+}
